@@ -27,7 +27,7 @@ pipeline {
                     // Run Katalon commands inside the Docker container
                     sh '''
                         cd /tmp/project/KatalonTesting
-                        katalonc.sh -projectPath="/tmp/project/KatalonTesting" -retry=0 -testSuitePath="Test Suites/Suite1" -browserType="Chrome" -executionProfile="default" -apiKey="YOUR_API_KEY"
+                        katalonc.sh -projectPath="/tmp/project/KatalonTesting" -retry=0 -testSuitePath="Test Suites/Suite1" -browserType="Chrome" -executionProfile="default" -apiKey="6052bbfe-f4fc-4553-b334-6769d9eff78b"
                     '''
                     // Adjust the command with your specific test suite path and API key
                 }
